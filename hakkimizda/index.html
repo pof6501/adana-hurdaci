@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakkımızda - Adana Hurdacılık</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #2e8b57;
+            color: white;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+        .btn:hover {
+            background-color: #267349;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        section {
+            padding: 80px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .section-title h2 {
+            font-size: 2.5rem;
+            color: #2e8b57;
+            margin-bottom: 15px;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-title h2::after {
+            content: '';
+            position: absolute;
+            width: 70px;
+            height: 4px;
+            background-color: #d4af37;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .about-content {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+        
+        .about-text {
+            flex: 1;
+        }
+        
+        .about-text h3 {
+            font-size: 1.8rem;
+            color: #2e8b57;
+            margin-bottom: 20px;
+        }
+        
+        .about-text p {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        
+        .about-image {
+            flex: 1;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .about-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        /* Responsive Tasarım */
+        @media (max-width: 992px) {
+            .about-content {
+                flex-direction: column;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .section-title h2 {
+                font-size: 2rem;
+            }
+            
+            section {
+                padding: 60px 0;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .section-title h2 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hakkımızda Bölümü -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Hakkımızda</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Adana'da 15 Yıllık Hurda Deneyimi</h3>
+                    <p>Adana Hurdacılık olarak, 2008 yılından bu yana Adana ve çevresinde hurda alım satım hizmeti vermekteyiz. Sektördeki uzmanlığımız ve müşteri memnuniyeti odaklı yaklaşımımız ile bölgenin en güvenilir hurdacı firmalarından biriyiz.</p>
+                    <p>Demir, bakır, alüminyum, çinko, paslanmaz, kablo ve diğer tüm hurda metalleri en yüksek piyasa fiyatlarından alıyoruz. Müşterilerimizin hurdalarını değerlendirirken adil ve şeffaf bir yaklaşım sergiliyoruz.</p>
+                    <p>Nakliye, yükleme ve boşaltma işlemlerini profesyonel ekipmanlarımız ve deneyimli personelimiz ile gerçekleştiriyor, müşterilerimize kolaylık sağlıyoruz.</p>
+                    <p><strong>7 Gün 24 Saat</strong> hizmet veriyoruz. Acil hurda alımlarınız için bizi her zaman arayabilirsiniz.</p>
+                    <a href="tel:05451576578" class="btn">Hemen Ara: 0545 157 65 78</a>
+                </div>
+                
+                <div class="about-image">
+                    <img src="https://www.adanahurdacilik.online/images/adananin-Hurdaci.web%C4%9F.jpg" alt="Adana Hurdacılık Ekibi">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
